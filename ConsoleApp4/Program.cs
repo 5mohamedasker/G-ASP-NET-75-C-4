@@ -108,6 +108,12 @@ namespace ConsoleApp4
             //int pages = 200;
             //PrintBookInfo( pages:pages, title:title);
             #endregion
+            #region Question012
+            ////12.Write a method PrintAllTitles(params string[] titles)
+            ////that prints each title on its own line.
+            ////Call it with three book titles.
+            //PrintAllTitles("Hello","Clean Code", "C#Basics");
+            #endregion
         }
         #region Question03_Method
         //static void PrintWelcomeMessage()
@@ -161,6 +167,13 @@ namespace ConsoleApp4
         //static void PrintBookInfo(string title,int pages = 300)
         //{
         //    Console.WriteLine($"Book title : {title}\npages\t   : {pages}");
+        //}
+        #endregion
+        #region Question012_Method
+        //static void PrintAllTitles(params string[] titles)
+        //{
+        //    foreach (string T in titles)
+        //        Console.WriteLine(T);
         //}
         #endregion
     }
