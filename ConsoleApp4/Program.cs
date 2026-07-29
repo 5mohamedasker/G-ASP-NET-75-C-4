@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Drawing;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp4
 {
@@ -72,6 +73,14 @@ namespace ConsoleApp4
                 that means I'm dealing with the original, not a copy.
             */
             #endregion
+            #region Question08
+            ////8.Write a method ReplaceArray(ref double[] prices)
+            ////that replaces prices entirely with a new array { 10.0, 12.5, 15.0 }.
+            ////Call it with your prices array and print prices.Lengt afterward.
+            //double[] prices = { 25.5, 40.0 };
+            //ReplaceArray(ref prices);
+            //Console.WriteLine(prices.Length);
+            #endregion
         }
         #region Question03_Method
         //static void PrintWelcomeMessage()
@@ -101,6 +110,12 @@ namespace ConsoleApp4
         //static void AddBonusPagesByRef(ref int pages)
         //{
         //    pages += 50;
+        //}
+        #endregion
+        #region Question08_Method
+        //static void ReplaceArray(ref double[] prices)
+        //{
+        //    prices = new double[] { 10.0, 12.5, 15.0 };
         //}
         #endregion
     }
