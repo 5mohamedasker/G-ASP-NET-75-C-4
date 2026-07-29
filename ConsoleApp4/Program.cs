@@ -91,6 +91,15 @@ namespace ConsoleApp4
             //if (TryGetPrice(title, out price))
             //    Console.WriteLine(price);
             #endregion
+            #region Question010
+            ////10.Write a method PrintBookInfo(string title, int pages = 300)
+            ////where pages is optional.Call it once with only a title,
+            ////and once passing both a title and pages.
+            //string title = "C#Basics";
+            //int pages = 200;
+            //PrintBookInfo(title);
+            //PrintBookInfo(title,pages);
+            #endregion
         }
         #region Question03_Method
         //static void PrintWelcomeMessage()
@@ -138,7 +147,13 @@ namespace ConsoleApp4
         //    }
         //    price = 0;
         //    return false;
-        }
+        //}
+        #endregion
+        #region Question010_Method
+        //static void PrintBookInfo(string title,int pages = 300)
+        //{
+        //    Console.WriteLine($"Book title : {title}\npages\t   : {pages}");
+        //}
         #endregion
     }
 }
