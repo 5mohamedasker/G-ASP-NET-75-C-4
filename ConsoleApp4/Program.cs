@@ -59,6 +59,19 @@ namespace ConsoleApp4
                that means I'm dealing with the original, not a copy.
             */
             #endregion
+            #region Question07
+            ////7.Rewrite the method from question 5
+            ////as AddBonusPagesByRef(ref int pages) using ref.
+            ////Call it and print pages afterward.
+            ////How is the result different from question 5 ?
+            //int pages = 400;
+            //AddBonusPagesByRef(ref pages);
+            //Console.WriteLine(pages);
+            /*How is the result different from question 5
+                Here the value will change because I passed by reference
+                that means I'm dealing with the original, not a copy.
+            */
+            #endregion
         }
         #region Question03_Method
         //static void PrintWelcomeMessage()
@@ -82,6 +95,12 @@ namespace ConsoleApp4
         //static void ApplyDiscount(double[] prices)
         //{
         //    prices[0] -= 5;
+        //}
+        #endregion
+        #region Question07_Method
+        //static void AddBonusPagesByRef(ref int pages)
+        //{
+        //    pages += 50;
         //}
         #endregion
     }
