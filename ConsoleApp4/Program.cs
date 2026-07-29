@@ -33,6 +33,19 @@ namespace ConsoleApp4
             //string title = "Clean Code";
             //PrintBookTitle(title);
             #endregion
+            #region Question05
+            ////5.Write a method AddBonusPages(int pages)
+            ////that adds 50 to pages. Call it with a variable int pages = 400;
+            ////and print pages afterward. What do you expect to see, and why?
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine(pages);
+            /*  What do you expect to see, and why?
+            Nothing will happen because I passed by values
+            That means we made a copy of it.
+            and modified the copy, not the original.
+            */
+            #endregion
         }
         #region Question03_Method
         //static void PrintWelcomeMessage()
@@ -44,6 +57,12 @@ namespace ConsoleApp4
         //static void PrintBookTitle(string title)
         //{
         //    Console.WriteLine($"Book title: {title}");
+        //}
+        #endregion
+        #region Question05_Method
+        //static void AddBonusPages(int pages)
+        //{
+        //    pages += 50;
         //}
         #endregion
     }
