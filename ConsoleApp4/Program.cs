@@ -81,6 +81,16 @@ namespace ConsoleApp4
             //ReplaceArray(ref prices);
             //Console.WriteLine(prices.Length);
             #endregion
+            #region Question09
+            ////9.Write a method bool TryGetPrice(string title, out double price)
+            ////that returns true and sets price to 25.5 if title is "Clean Code",
+            ////otherwise returns false and sets price to 0.
+            ////Call it and print the price if found
+            //string title = "Clean Code";
+            //double price;
+            //if (TryGetPrice(title, out price))
+            //    Console.WriteLine(price);
+            #endregion
         }
         #region Question03_Method
         //static void PrintWelcomeMessage()
@@ -117,6 +127,18 @@ namespace ConsoleApp4
         //{
         //    prices = new double[] { 10.0, 12.5, 15.0 };
         //}
+        #endregion
+        #region Question09_Method
+        //static bool TryGetPrice(string title, out double price)
+        //{
+        //    if(title == "Clean Code")
+        //    {
+        //        price = 25.5;
+        //        return true;
+        //    }
+        //    price = 0;
+        //    return false;
+        }
         #endregion
     }
 }
