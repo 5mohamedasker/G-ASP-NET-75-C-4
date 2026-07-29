@@ -27,12 +27,24 @@ namespace ConsoleApp4
             ////.Call it from Main.
             //PrintWelcomeMessage();
             #endregion
+            #region Question04
+            ////4.Write a method PrintBookTitle(string title)
+            ////that prints "Book title: " + title. Call it with "Clean Code".
+            //string title = "Clean Code";
+            //PrintBookTitle(title);
+            #endregion
         }
         #region Question03_Method
         //static void PrintWelcomeMessage()
         //{
         //    Console.WriteLine("Welcome to the Library!");
         //} 
+        #endregion
+        #region Question04_Method
+        //static void PrintBookTitle(string title)
+        //{
+        //    Console.WriteLine($"Book title: {title}");
+        //}
         #endregion
     }
 }
