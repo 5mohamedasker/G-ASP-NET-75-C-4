@@ -46,6 +46,19 @@ namespace ConsoleApp4
             and modified the copy, not the original.
             */
             #endregion
+            #region Question06
+            ////6.Write a method ApplyDiscount(double[] prices)
+            ////that subtracts 5 from prices[0].
+            ////Call it with double[] prices = { 25.5, 40.0 };
+            ////and print prices[0] afterward.What do you expect to see, and why?
+            //double[] prices = { 25.5, 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
+            /*What do you expect to see, and why?
+               Here the value will change because I passed the reference
+               that means I'm dealing with the original, not a copy.
+            */
+            #endregion
         }
         #region Question03_Method
         //static void PrintWelcomeMessage()
@@ -63,6 +76,12 @@ namespace ConsoleApp4
         //static void AddBonusPages(int pages)
         //{
         //    pages += 50;
+        //}
+        #endregion
+        #region Question06_Method
+        //static void ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] -= 5;
         //}
         #endregion
     }
