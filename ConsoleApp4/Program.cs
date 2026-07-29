@@ -21,6 +21,18 @@ namespace ConsoleApp4
             //int[,] arr = { {3,5} , {1,4} };
             //Console.WriteLine(arr[1, 0]);
             #endregion
+            #region Question03
+            ////3.Write a method called PrintWelcomeMessage
+            ////that takes no parameters and prints "Welcome to the Library!"
+            ////.Call it from Main.
+            //PrintWelcomeMessage();
+            #endregion
         }
+        #region Question03_Method
+        //static void PrintWelcomeMessage()
+        //{
+        //    Console.WriteLine("Welcome to the Library!");
+        //} 
+        #endregion
     }
 }
